@@ -20,6 +20,8 @@ public class DemoApplication {
 	
 	public static void main(String[] args) {
 		logger.info("Application Executed buddy......");
+		System.out.println("Let s check when its running ");
+		
 		SpringApplication.run(DemoApplication.class, args);
 	}
 
