@@ -13,9 +13,9 @@ public class DemoApplication {
 	public static Logger logger=LoggerFactory.getLogger(DemoApplication.class);
 	
 	@PostConstruct
-	public void intit(String msg)
+	public void intt()
 	{
-		logger.info(msg);
+		logger.info("Application Started ...");
 	}
 	
 	public static void main(String[] args) {
